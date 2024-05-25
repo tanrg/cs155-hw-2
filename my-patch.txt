@@ -1,0 +1,43 @@
+Return-Path: <tannergaona@u.boisestate.edu>
+Received: from codespaces-e6bfda.tqpf3kq2adhe1lczgpyslvlaca.xx.internal.cloudapp.net ([4.155.200.156])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-6f8fd6d7e04sm1679883b3a.219.2024.05.24.19.15.47
+        for <tannergaona@u.boisestate.edu>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 24 May 2024 19:15:48 -0700 (PDT)
+From: Tanner Gaona <tannergaona@u.boisestate.edu>
+To: tannergaona@u.boisestate.edu
+Subject: [PATCH] Submit project
+Date: Sat, 25 May 2024 02:15:32 +0000
+Message-ID: <20240525021532.5902-1-tannergaona@u.boisestate.edu>
+X-Mailer: git-send-email 2.44.0
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+---
+ my-name.txt  | 1 +
+ tanrg.patch  | 0
+ the-date.txt | 1 +
+ 3 files changed, 2 insertions(+)
+ create mode 100644 my-name.txt
+ create mode 100644 tanrg.patch
+ create mode 100644 the-date.txt
+
+diff --git a/my-name.txt b/my-name.txt
+new file mode 100644
+index 0000000..e66c1e8
+--- /dev/null
++++ b/my-name.txt
+@@ -0,0 +1 @@
++My Name
+diff --git a/tanrg.patch b/tanrg.patch
+new file mode 100644
+index 0000000..e69de29
+diff --git a/the-date.txt b/the-date.txt
+new file mode 100644
+index 0000000..348a3b6
+--- /dev/null
++++ b/the-date.txt
+@@ -0,0 +1 @@
++Tue May 21 16:01:37 UTC 2024
+-- 
+2.44.0
